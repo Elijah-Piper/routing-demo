@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './Components/Home';
+import One from './Components/One';
+import Two from './Components/Two';
+import Three from './Components/Three';
+import Four from './Components/Four';
+import Five from './Components/Five';
+
+const li = "Integer semper sagittis ligula, at lobortis nibh sodales at. Morbi sollicitudin posuere nibh, ac porta sem elementum et. Nunc imperdiet ante semper, consectetur nulla eu, semper nisi. Pellentesque dignissim quis dui convallis varius. Proin ornare sapien sed arcu iaculis luctus. Mauris vel tellus ligula. Morbi scelerisque, nulla at condimentum egestas, augue ipsum finibus eros, nec tempus libero sapien a enim. Sed in eros ut arcu egestas tincidunt. In vel urna eu leo convallis facilisis sit amet vel eros. Nullam ut convallis leo, in facilisis lorem. Vivamus in congue velit, sit amet imperdiet ipsum. Phasellus ac sapien vitae justo posuere congue. Etiam euismod elementum enim, sit amet mollis ex. Etiam gravida tincidunt ante, non accumsan tellus tempor id. Nam in metus eget lectus egestas volutpat non eu lorem. Nullam bibendum metus sit amet eros tempor, ac pharetra arcu pretium. Phasellus dapibus sit amet lorem quis eleifend. Nullam eu lacus nisi. Nulla nulla massa, dictum sed lacus id, commodo luctus velit. Etiam ornare, nulla id elementum dapibus, nibh neque ultrices arcu, vitae fringilla massa turpis in urna. Suspendisse potenti. Cras sed condimentum elit. Donec eleifend placerat quam in accumsan. Proin sit amet enim pellentesque, placerat risus in, auctor tortor. Fusce rutrum, sem ut varius feugiat, nulla erat vulputate mi, commodo sagittis nibh diam sit amet felis. Phasellus sed finibus magna. Suspendisse vulputate risus vehicula ex posuere, non pulvinar neque sollicitudin. Nulla ornare dapibus nunc, eu pulvinar neque accumsan et. Sed vel commodo dolor. Sed tristique quam turpis, eu ultricies tellus vulputate ut. Ut ut urna non orci auctor aliquam. Cras ac elit quis ex ultrices pulvinar. Nulla facilisi. Praesent non rutrum augue, vel maximus leo. Cras et diam efficitur, dictum mi eu, commodo nunc. Nunc fringilla dapibus erat nec laoreet. Maecenas bibendum ac nisi vel finibus. Ut diam libero, tincidunt eu lobortis id, convallis eu urna. Integer justo leo, lacinia in libero vitae, varius congue velit. Aliquam vulputate at magna sed rutrum. Etiam orci ex, dictum a est ut, vulputate ultrices justo. Nulla eleifend eros non metus maximus, venenatis iaculis nulla varius. Praesent aliquet malesuada sem, a molestie ante sagittis ut. Nullam ultricies sapien in nibh aliquet tincidunt. Etiam elit erat, aliquam sed placerat non, dignissim et metus. Suspendisse nunc libero, euismod id posuere egestas, pellentesque at nibh. Fusce mollis luctus sem, at scelerisque orci auctor fringilla. Aenean lacinia dui vitae maximus sollicitudin. Vestibulum a dolor eros. Donec tempus justo sed elit laoreet efficitur. Maecenas tristique justo nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo tellus, posuere eget dui id, semper fermentum arcu. Aliquam bibendum erat quis pulvinar imperdiet. Phasellus gravida justo est, sit amet vehicula nunc finibus a. Fusce sed felis sed nisl blandit pellentesque sed non orci. Suspendisse a mauris libero. Nam tempor eleifend neque auctor sagittis. Proin nec nulla dignissim, mollis erat vel, pellentesque augue. Duis non turpis dolor. Pellentesque vehicula, neque a laoreet faucibus, lectus orci semper augue, sit amet suscipit ipsum ante sit amet leo. Proin nisi libero, mollis id risus nec, molestie tempus neque. Mauris dignissim lorem sit amet urna vulputate rutrum. Nam at diam justo. Etiam tristique justo sit amet felis tincidunt scelerisque. Mauris dignissim efficitur augue. Quisque tempus quis neque id tempus. Quisque id nisi eu nibh accumsan gravida. Nunc accumsan id sem vel molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed hendrerit mauris at est commodo ultricies. Integer nisl elit, rutrum malesuada nibh fermentum, pharetra consequat sapien. Pellentesque id auctor nunc. Mauris pharetra consequat metus, sed iaculis urna cursus nec. Phasellus eget congue libero. Sed sagittis ullamcorper neque, mollis elementum arcu facilisis vel. Vestibulum faucibus rhoncus congue. Mauris condimentum tempor diam, a ultricies felis interdum eget. Vivamus convallis mauris sit amet arcu sodales pulvinar. Mauris tristique ex ac erat tincidunt, nec vestibulum velit hendrerit. Quisque viverra nisl vehicula elit ullamcorper tempor. Duis pretium lacinia orci vel feugiat. Vivamus urna orci, finibus quis justo ac, auctor molestie libero. Nulla lacus ipsum, porta non tempor vitae, eleifend a sem. Donec molestie lacinia est id blandit. Aliquam ornare, odio eu mattis pellentesque, risus orci facilisis arcu, non semper dolor orci volutpat elit. Nam vel est eget eros cursus tempus vitae non diam. Donec sit amet mi a purus ullamcorper tincidunt. In hac habitasse platea dictumst. Nam tempus dolor vel lectus sollicitudin iaculis vitae ut enim. Donec semper efficitur odio. Nunc odio ipsum, vestibulum quis metus fermentum, vulputate dignissim lectus. Sed sollicitudin, leo eget ultrices bibendum, arcu nulla hendrerit dolor, quis sollicitudin lorem erat et felis. Integer lorem felis, iaculis ac tristique eu, ullamcorper in nulla. Maecenas imperdiet quam tellus, id imperdiet dui eleifend sit amet. Donec odio elit, rhoncus eu odio eget, fermentum lacinia ante. Cras ac cursus sem, id vehicula nibh. Maecenas vulputate erat vulputate, volutpat tellus quis, blandit odio. Praesent nec nisi sit amet turpis volutpat condimentum. Nulla vel mattis justo. Fusce sodales sem vitae neque scelerisque lacinia. Praesent at tellus non est hendrerit venenatis vel ac nunc. Curabitur rhoncus venenatis nisi, vel malesuada nulla. Aliquam vel facilisis enim. Aliquam erat volutpat."
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={ <Home /> }></Route>
+      <Route path="/one" element={ <One body={ li }/> }></Route>
+      <Route path="/two" element={ <Two body={ li }/> }></Route>
+      <Route path="/three" element={ <Three body={ li }/> }></Route>
+      <Route path="/four" element={ <Four body={ li }/> }></Route>
+      <Route path="/five" element={ <Five body={ li }/>}></Route>
+    </Routes>
   );
 }
 
